@@ -16,9 +16,6 @@ const IndexPage = ({ data }) => (
     <Row style={{maxWidth:`960px`}}> 
         <img src={header_wifeImg} style={{width:`100%`,marginBottom:`2rem`}} />
     </Row>
-    <Row style={{maxWidth:`960px`}}> 
-        <img src={header_husbandImg} style={{width:`100%`,marginBottom:`2rem`}} />
-    </Row>
     <Row>
       <Col xs={12} md={6} style={{maxWidth:`480px`}}>
         <Row>
