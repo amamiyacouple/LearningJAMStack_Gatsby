@@ -4,7 +4,8 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { Link } from "gatsby";
 import image from "../components/image"
-import homeImg from "../images/home.jpg"
+import header_wifeImg from "../images/header_wife.jpg"
+import header_husbandImg from "../images/header_hosband.jpg"
 import jigyo1Img from "../images/jigyo1.jpg"
 import jigyo2Img from "../images/jigyo2.jpg"
 import jigyo3Img from "../images/jigyo3.jpg"
@@ -13,7 +14,10 @@ const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
     <Row style={{maxWidth:`960px`}}> 
-        <img src={homeImg} style={{width:`100%`,marginBottom:`2rem`}} />
+        <img src={header_wifeImg} style={{width:`100%`,marginBottom:`2rem`}} />
+    </Row>
+    <Row style={{maxWidth:`960px`}}> 
+        <img src={header_husbandImg} style={{width:`100%`,marginBottom:`2rem`}} />
     </Row>
     <Row>
       <Col xs={12} md={6} style={{maxWidth:`480px`}}>
