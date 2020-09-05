@@ -6,7 +6,8 @@ import { Link } from "gatsby";
 import image from "../components/image"
 import header_wifeImg from "../images/header_wife.jpg"
 import header_husbandImg from "../images/header_husband.jpg"
-import jigyo1Img from "../images/jigyo1.jpg"
+import twitter_husbandImg from "../images/icon_husband.png"
+//import jigyo1Img from "../images/jigyo1.jpg"
 import jigyo2Img from "../images/jigyo2.jpg"
 import jigyo3Img from "../images/jigyo3.jpg"
 
@@ -14,7 +15,7 @@ const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
     <Row style={{maxWidth:`960px`}}> 
-        <img src={header_wifeImg} style={{width:`100%`,marginBottom:`2rem`}} />
+        <img src={header_wifeImg} style={{width:`100%`,marginBottom:`0rem`}} />
         <img src={header_husbandImg} style={{width:`100%`,marginBottom:`2rem`}} />
     </Row>
     <Row>
@@ -51,16 +52,16 @@ const IndexPage = ({ data }) => (
       </Col>
     </Row>
     <Row>
-      <Col style={{backgroundColor:`cornflowerblue`,color:`white`,padding:`0.5rem`,maxWidth:`960px`,marginTop:`2rem`}}>人気記事</Col>
+      <Col style={{backgroundColor:`cornflowerblue`,color:`white`,padding:`0.5rem`,maxWidth:`960px`,marginTop:`2rem`}}>SNS</Col>
     </Row>
     <Row>
       <Col style={{maxWidth:`960px`}}>
         <Row>
           <Col xs={6} md={4}>
             <Card style={{marginTop:`1rem`}}>
-              <Card.Img variant="top" src={jigyo1Img} alt={`軌道上デブリ除去`} />
+              <Card.Img variant="top" src={twitter_husbandImg} alt={`Twitter`} />
               <Card.Body>
-                <Card.Title style={{fontSize:`1rem`}}>軌道上デブリ除去</Card.Title>
+                <Card.Title style={{fontSize:`1rem`}}>https://twitter.com/amamiya_couple</Card.Title>
               </Card.Body>
             </Card>
           </Col>
