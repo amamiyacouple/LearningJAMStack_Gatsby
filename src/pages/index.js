@@ -15,8 +15,6 @@ const IndexPage = ({ data }) => (
     <SEO title="Home" />
     <Row style={{maxWidth:`960px`}}> 
         <img src={header_wifeImg} style={{width:`100%`,marginBottom:`2rem`}} />
-    </Row>
-    <Row style={{maxWidth:`960px`}}> 
         <img src={header_husbandImg} style={{width:`100%`,marginBottom:`2rem`}} />
     </Row>
     <Row>
